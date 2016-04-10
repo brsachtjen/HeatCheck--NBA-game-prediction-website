@@ -11,9 +11,10 @@ By functional I/WE mean:
 4. Online payment system using Stripe -  Stripe online payment system implemented to collect $1 from the user during registration.
 5. The libraries for both stripe and PHP Mailer are included in the base folder and can be directly refrenced in the register.php file.
 
-The website template was obtained from html5up website - http://html5up.net
-The online payment module used in the website is Stripe- https://stripe.com
-The email functionality was implemented using PHP Mailer - https://github.com/PHPMailer/PHPMailer
+
+1. The website template was obtained from html5up website - http://html5up.net
+2. The online payment module used in the website is Stripe- https://stripe.com
+3. The email functionality was implemented using PHP Mailer - https://github.com/PHPMailer/PHPMailer
 
 
 Note- the website doesn't provide any real predictions, yet. It is just a ready-to-go website which can be integrated with a game predictions module.
