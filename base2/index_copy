@@ -1,0 +1,371 @@
+<!DOCTYPE HTML>
+<!--
+	TXT by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>HEATCHECK</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body class="homepage">
+		<div id="page-wrapper">
+
+
+
+			<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li class="current"><a href="index.html">Home</a></li>
+
+						<li><a href="aboutus.html">About Us</a></li>
+						<li><a href="#">Sign up!</a></li>
+					</ul>
+				</nav>
+
+			<!-- Banner -->
+				<div id="banner-wrapper">
+					<section id="banner">
+						<h2>Welcome to HeatCheck</h2>
+						<p>The #1 site for NBA game predictions.</p>
+						<a href="#" class="button">Let's Win</a>
+					</section>
+				</div>
+
+			<!-- Main -->
+			<div id="main-wrapper">
+				<div class="row 200%" >
+								<div class="12u" >
+
+									<!-- Features -->
+										<section class="box features" >
+											<h2 class="major" style="font-size:8em; margin: 0em 0 1.0em 0;"><span>3 Easy Steps</span></h2>
+											<div>
+												<div class="row" style="margin:auto; width: 130%;">
+
+														<div class="3u 12u(mobile)" > 
+
+															<!-- Feature -->
+																<section class="box feature" style="font-size:1.25em;">
+																	<a href="#" class="image featured"><img src="images/durant.jpg" alt=""/></a>
+																	<h3><a href="#">1. Sign up</a></h3>
+																	<p>
+																		It only takes a minute - and it's free!
+																	</p>
+																</section>
+
+														</div>
+														<div class="3u 12u(mobile)">
+
+															<!-- Feature -->
+																<section class="box feature" style="font-size:1.25em;">
+																	<a href="#" class="image featured"><img src="images/kobe.jpg" alt="" /></a>
+																	<h3><a href="#">2. Pick your games</a></h3>
+																	<p>
+																		Stats and predictions for every game.
+																	</p>
+																</section>
+
+														</div>
+														<div class="3u 12u(mobile)">
+
+															<!-- Feature -->
+																<section class="box feature" style="font-size:1.25em;">
+																	<a href="#" class="image featured"><img src="images/lebron.jpg" alt="" /></a>
+																	<h3><a href="#">Win Big!</a></h3>
+																	<p>
+																		Because who doesn't like cold hard cash?
+																	</p>
+																</section>
+
+														</div>
+
+												</div>
+												<div class="row">
+													<div class="12u">
+														<ul class="actions">
+															<li><a href="#" class="button big">Sign up!</a></li>
+															<li><a href="#" class="button alt big">More Info</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</section>
+
+								</div>
+							</div>
+						</div>
+
+				<div>
+					<div id="main" class="container">
+						<div class="row 200%">
+							<div class="12u">
+
+								<!-- Highlight -->
+									<section class="box highlight">
+										<ul class="special">
+											<li><a href="#" class="icon fa-cogs"><span class="label">Magnifier</span></a></li>
+											<li><a href="#" class="icon fa-line-chart"><span class="label">Tablet</span></a></li>
+											<li><a href="#" class="icon fa-usd"><span class="label">Flask</span></a></li>
+											<li><a href="#" class="icon fa-comments"><span class="label">Cog?</span></a></li>
+										</ul>
+										<header>
+											<h2>A random assortment of icons in circles</h2>
+											<p>And some text that attempts to explain their significance</p>
+										</header>
+
+									</section>
+
+							</div>
+						</div>
+						
+						<div class="row 200%">
+							<div class="12u">
+
+								<!-- Blog -->
+									<section class="box blog">
+										<h2 class="major"><span>Another Major Heading</span></h2>
+										<div>
+											<div class="row">
+												<div class="9u 12u(mobile)">
+													<div class="content content-left">
+
+														<!-- Featured Post -->
+															<article class="box post">
+																<header>
+																	<h3><a href="#">Here's a really big heading</a></h3>
+																	<p>With a smaller subtitle that attempts to elaborate</p>
+																	<ul class="meta">
+																		<li class="icon fa-clock-o">15 minutes ago</li>
+																		<li class="icon fa-comments"><a href="#">8</a></li>
+																	</ul>
+																</header>
+																<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+																<p>
+																	Phasellus quam turpis, feugiat sit amet ornare in, a hendrerit in lectus. Praesent
+																	semper mod quis eget mi. Etiam sed ante risus aliquam erat et volutpat. Praesent a
+																	dapibus velit. Curabitur sed nisi nunc, accumsan vestibulum lectus. Lorem ipsum
+																	dolor sit non aliquet sed, tempor et dolor.  Praesent a dapibus velit. Curabitur
+																	accumsan.
+																</p>
+																<a href="#" class="button">Continue Reading</a>
+															</article>
+
+													</div>
+												</div>
+												<div class="3u 12u(mobile)">
+													<div class="sidebar">
+
+														<!-- Archives -->
+															<ul class="divided">
+																<li>
+																	<article class="box post-summary">
+																		<h3><a href="#">A Subheading</a></h3>
+																		<ul class="meta">
+																			<li class="icon fa-clock-o">6 hours ago</li>
+																			<li class="icon fa-comments"><a href="#">34</a></li>
+																		</ul>
+																	</article>
+																</li>
+																<li>
+																	<article class="box post-summary">
+																		<h3><a href="#">Another Subheading</a></h3>
+																		<ul class="meta">
+																			<li class="icon fa-clock-o">9 hours ago</li>
+																			<li class="icon fa-comments"><a href="#">27</a></li>
+																		</ul>
+																	</article>
+																</li>
+																<li>
+																	<article class="box post-summary">
+																		<h3><a href="#">And Another</a></h3>
+																		<ul class="meta">
+																			<li class="icon fa-clock-o">Yesterday</li>
+																			<li class="icon fa-comments"><a href="#">184</a></li>
+																		</ul>
+																	</article>
+																</li>
+																<li>
+																	<article class="box post-summary">
+																		<h3><a href="#">And Another</a></h3>
+																		<ul class="meta">
+																			<li class="icon fa-clock-o">2 days ago</li>
+																			<li class="icon fa-comments"><a href="#">286</a></li>
+																		</ul>
+																	</article>
+																</li>
+																<li>
+																	<article class="box post-summary">
+																		<h3><a href="#">And One More</a></h3>
+																		<ul class="meta">
+																			<li class="icon fa-clock-o">3 days ago</li>
+																			<li class="icon fa-comments"><a href="#">8,086</a></li>
+																		</ul>
+																	</article>
+																</li>
+															</ul>
+															<a href="#" class="button alt">Browse Archives</a>
+
+													</div>
+												</div>
+											</div>
+										</div>
+									</section>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+	<div class="cd-pricing-container">
+		<ul class="cd-pricing-list">
+			<li>
+				<header class="cd-pricing-header">
+					<h2>Basic</h2>
+
+					<div class="cd-price">
+						<span class="cd-currency">$</span>
+						<span class="cd-value">30</span>
+						<span class="cd-duration">mo</span>
+					</div>
+				</header> <!-- .cd-pricing-header -->
+
+				<div class="cd-pricing-body">
+					<ul class="cd-pricing-features">
+						<li><em>256MB</em> Memory</li>
+						<li><em>1</em> User</li>
+						<li><em>1</em> Website</li>
+						<li><em>1</em> Domain</li>
+						<li><em>Unlimited</em> Bandwidth</li>
+						<li><em>24/7</em> Support</li>
+					</ul>
+				</div> <!-- .cd-pricing-body -->
+
+				<footer class="cd-pricing-footer">
+					<a class="cd-select" href="http://codyhouse.co/?p=429">Select</a>
+				</footer> <!-- .cd-pricing-footer -->
+			</li>
+			<li class="cd-popular">
+				<header class="cd-pricing-header">
+					<h2>Popular</h2>
+
+					<div class="cd-price">
+						<span class="cd-currency">$</span>
+						<span class="cd-value">60</span>
+						<span class="cd-duration">mo</span>
+					</div>
+				</header> <!-- .cd-pricing-header -->
+
+				<div class="cd-pricing-body">
+					<ul class="cd-pricing-features">
+						<li><em>512MB</em> Memory</li>
+						<li><em>3</em> Users</li>
+						<li><em>5</em> Websites</li>
+						<li><em>7</em> Domains</li>
+						<li><em>Unlimited</em> Bandwidth</li>
+						<li><em>24/7</em> Support</li>
+					</ul>
+				</div> <!-- .cd-pricing-body -->
+
+				<footer class="cd-pricing-footer">
+					<a class="cd-select" href="http://codyhouse.co/?p=429">Select</a>
+				</footer> <!-- .cd-pricing-footer -->
+			</li>
+			<li>
+				<header class="cd-pricing-header">
+					<h2>Premier</h2>
+
+					<div class="cd-price">
+						<span class="cd-currency">$</span>
+						<span class="cd-value">90</span>
+						<span class="cd-duration">mo</span>
+					</div>
+				</header> <!-- .cd-pricing-header -->
+
+				<div class="cd-pricing-body">
+					<ul class="cd-pricing-features">
+						<li><em>1024MB</em> Memory</li>
+						<li><em>5</em> Users</li>
+						<li><em>10</em> Websites</li>
+						<li><em>10</em> Domains</li>
+						<li><em>Unlimited</em> Bandwidth</li>
+						<li><em>24/7</em> Support</li>
+					</ul>
+				</div> <!-- .cd-pricing-body -->
+
+				<footer class="cd-pricing-footer">
+					<a class="cd-select" href="http://codyhouse.co/?p=429">Select</a>
+				</footer>  <!-- .cd-pricing-footer -->
+			</li>
+		</ul> <!-- .cd-pricing-list -->
+	</div> <!-- .cd-pricing-container -->
+
+	
+	
+
+			<!-- Footer -->
+				<footer id="footer" class="container">
+					<div class="row 200%">
+						<div class="12u">
+
+							<!-- About -->
+								<section>
+									<h2 class="major"><span>What's this about?</span></h2>
+									<p>
+										This is <strong>TXT</strong>, yet another free responsive site template designed by
+										<a href="http://n33.co">AJ</a> for <a href="http://html5up.net">HTML5 UP</a>. It's released under the
+										<a href="http://html5up.net/license/">Creative Commons Attribution</a> license so feel free to use it for
+										whatever you're working on (personal or commercial), just be sure to give us credit for the design.
+										That's basically it :)
+									</p>
+								</section>
+
+						</div>
+					</div>
+					<div class="row 200%">
+						<div class="12u">
+
+							<!-- Contact -->
+								<section>
+									<h2 class="major"><span>Get in touch</span></h2>
+									<ul class="contact">
+										<li><a class="icon fa-facebook" href="#"><span class="label">Facebook</span></a></li>
+										<li><a class="icon fa-twitter" href="#"><span class="label">Twitter</span></a></li>
+										<li><a class="icon fa-instagram" href="#"><span class="label">Instagram</span></a></li>
+										<li><a class="icon fa-dribbble" href="#"><span class="label">Dribbble</span></a></li>
+										<li><a class="icon fa-google-plus" href="#"><span class="label">Google+</span></a></li>
+									</ul>
+								</section>
+
+						</div>
+					</div>
+
+					<!-- Copyright -->
+						<div id="copyright">
+							<ul class="menu">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+
+				</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

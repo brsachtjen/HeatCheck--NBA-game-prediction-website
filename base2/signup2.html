@@ -1,0 +1,269 @@
+<!DOCTYPE HTML>
+<!--
+	TXT by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>HEATCHECK - SignUp</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        <script src="gen_validatorv4.js" type="text/javascript"></script>
+        <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script type="text/javascript">
+          // This identifies your website in the createToken call below
+          Stripe.setPublishableKey('pk_test_oQ6uyABdi4ce50PQBKd2kjKU');
+
+          function onSubmitDo () {
+      
+      Stripe.card.createToken( document.getElementById('register'), myStripeResponseHandler );
+          
+      return false;
+      
+    };
+    function myStripeResponseHandler ( status, response ) {
+      
+      console.log( status );
+      console.log( response );
+    
+      if ( response.error ) {
+        document.getElementById('payment-error').innerHTML = response.error.message;
+      } else {
+        var tokenInput = document.createElement("input");
+        tokenInput.type = "hidden";
+        tokenInput.name = "stripeToken";
+        tokenInput.value = response.id;
+        var paymentForm = document.getElementById('register');
+        paymentForm.appendChild(tokenInput);
+        paymentForm.submit();
+      }
+      
+   };
+        </script>
+          
+	</head>
+	<body>
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					
+						
+						<!--	<h1><a id="logo" style="font-size: 3em; color: #ff3333; margin: -1em 0em 0em 0em;">HeatCheck</a></h1> -->
+							
+						
+					
+				</header>
+				
+
+			<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+
+						<li><a href="aboutus.html">About Us</a></li>
+						<li class="current"><a href="#">Sign up!</a></li>
+						<li><a href="signin.html">Sign-in</a></li>
+					</ul>
+				</nav>
+
+            
+            <div  style="position: fixed; top: -10px;left: -10px; z-index: 1002;">
+            
+                <img style="height: 10em;" src="images/heatcheck.png" alt=""/>
+            
+            </div>
+			<!-- Main -->
+				<div id="main-wrapper">
+					<div id="main" class="container">
+						<div class="row">
+							<div class="3u 12u(mobile)">
+								<div class="sidebar">
+
+									<!-- Sidebar -->
+
+										<!-- Recent Posts -->
+											<section>
+												<ul class="divided" style="margin-top: 3em;">
+													<li>
+														<article class="box post-summary">
+															<h3 style="font-size: 1.6em;"><a>Against the spread</a></h3>
+															<li class="icon fa-cogs" style="font-size: 3em"> 58.4% </li>
+														</article>
+													</li>
+													<li>
+														<article class="box post-summary">
+															<h3 style="font-size: 1.6em;"><a>Over/Under Predictions</a></h3>
+															<li class="icon fa-line-chart" style="font-size: 3em"> 59.8% </li>
+														</article>
+													</li>
+													<li>
+														<article class="box post-summary">
+															<h3 style="font-size: 1.6em;"><a>Return on Investment</a></h3>
+															<li class="icon fa-usd" style="font-size: 3em"> 17% </li>
+														</article>
+													</li>
+												</ul>
+											</section>
+  
+										
+								</div>
+							</div>
+							<div class="signupbox" style="display:inline-block; float: left; min-width: 900px;">
+								
+                                       
+									<!-- Content -->
+
+                                                                            <!-- multistep form -->
+                                   <form id='register' style="margin-left: 5em;" action='register.php' method="post">
+                                    
+                                        <div style="float:left; position:relative;">
+                                    <legend style="font-size: 3.5em; margin-bottom: 0.5em; font-alignment: center;">Almost Done!</legend>
+                                        
+                                        <h3 style="font-size:1em; margin-bottom: 0em;"> * = Mandatory </h3>
+                                    <input type='hidden' name='submitted' id='submitted' value='1'/>
+                                        
+                                    <label style="font-size: 1.5em; margin-top: 1.5em; margin-bottom: 0.5em;" for='ccname' >Name on Credit Card*: </label>
+                                    <input type='text' maxlength="50" />
+                                        
+                                    <label style="font-size: 1.5em; margin-top: 0.5em; margin-bottom: 0.5em;" for='ccnum' >Credit Card Number*:</label>
+                                    <input type='text' id='ccnum' class="ccnum" data-stripe='number' maxlength="16" />
+                                        </div>
+										
+                                       <div style="position:relative; display:inline-block;  margin-top: 7em; margin-left: 3em;">
+                                    <label style="font-size: 1.5em; margin-top: 0.5em; margin-bottom: 0.5em;" for='address' >Credit Card Expiration Date*:</label>
+                                    <select  data-stripe='exp-month' class="ccmonth" style="display:inline; float:left; width:55%; margin-bottom: 0.5em;">
+                                        <option value="01">January</option>
+                                        <option value="02">February</option>
+                                        <option value="03">March</option>
+                                        <option value="04">April</option>
+                                        <option value="05">May</option>
+                                        <option value="06">June</option>
+                                        <option value="07">July</option>
+                                        <option value="08">August</option>
+                                        <option value="09">September</option>
+                                        <option value="10">October</option>
+                                        <option value="11">November</option>
+                                        <option value="12">December</option>
+                                    </select>
+                                           
+                                    <select data-stripe='exp-year' class="ccyear" style="float:right; display:inline; width:40%; margin-bottom: 0.5em;">
+                                        <option value="2016">2016</option>
+                                        <option value="2017">2017</option>
+                                        <option value="2018">2018</option>
+                                        <option value="2019">2019</option>
+                                        <option value="2020">2020</option>                          
+                                    </select>
+                                    <label style="font-size: 1.5em; margin-top: 0.5em; margin-bottom: 0.5em;" for='cvc' >CVV*:</label>
+                                    <input type='text' class="cvc" data-stripe='cvc' maxlength="4" />
+                                        
+                                    <input type='hidden' name='name' id='name' maxlength="50" />
+                                    <input type='hidden' name='email' id='email' maxlength="50" />
+                                           <input type='hidden' name='password' id='password' maxlength="50" />
+                                           <input type='hidden' name='phone' id='phone' maxlength="50" />
+                                           <input type='hidden' name='address' id='address' maxlength="50" />
+                                           <input type='hidden' name='city' id='city' maxlength="50" />
+                                           <input type='hidden' name='zip' id='zip' maxlength="50" />
+                                           <input type='hidden' name='state' id='state' maxlength="50" />
+                                    
+                                           
+                                        </div>
+                                       
+                                       
+                                       <div>
+
+                                    <button style="margin-top: 1.5em; margin-left: -2.5em;" type='submit' name='btnSubmit' id="btnSubmit">Submit! </button>
+
+                                       </div>
+                                       
+                                    </form>
+                                   
+                                <script  type="text/javascript">
+                                      var frmvalidator = new Validator("register");
+                                    frmvalidator.addValidation("ccname","req","You have not entered the full name on the card. Please refresh this page and enter your credit card information.");
+                                    frmvalidator.addValidation("ccname","alpha_s","Only alphabetic characters and space allowed for name. Please refresh this page and enter valid credit card information");
+									frmvalidator.addValidation("ccnum","req"," You have not entered a valid credit card number. Please refresh this page and enter valid credit card information.");
+                                    frmvalidator.addValidation("ccnum","numeric","Please refresh this page and enter a valid credit card number.");
+                                    frmvalidator.addValidation("ccnum","minlength=16","Credit number must be 16 digits. Please refresh this page and enter valid credit card information");
+									// frmvalidator.addValidation("ccdate","req","Please enter your credit card expiration date.");
+                                    frmvalidator.addValidation("cvc","req","You have not entered your cvv information. Please Refresh this page and enter your valid credit card information.");
+                                    frmvalidator.addValidation("cvc","numeric","Please refresh this page and enter a valid credit card CVV.");
+                                    frmvalidator.addValidation("cvc","minlength=3","CVV must be 3 or 4 digits. Please refresh this page and enter a valid credit card information");
+                  
+                                </script>
+                                
+                           
+								<script>
+                            
+                                document.getElementById('name').value = localStorage.getItem('tempname');
+                                    document.getElementById('email').value = localStorage.getItem('tempemail');
+                                    document.getElementById('password').value = localStorage.getItem('temppassword');
+                                    document.getElementById('phone').value = localStorage.getItem('tempphone');
+                                    document.getElementById('address').value = localStorage.getItem('tempaddress');
+                                    document.getElementById('city').value = localStorage.getItem('tempcity');
+                                    document.getElementById('zip').value = localStorage.getItem('tempzip');
+                                    document.getElementById('state').value = localStorage.getItem('tempstate');
+                                
+                             
+                                </script>
+							</div>
+                            
+                            
+                                   <!-- <a class="image featured" style="margin-top: 7.5em;"><img src="images/curry2.jpg" alt="" /></a> -->
+                            
+                            
+                            
+						</div>
+						
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<footer id="footer" class="container">
+
+					<div class="row 200%">
+						<div class="12u">
+
+							<!-- Contact -->
+								<!-- <section>
+									<h2 class="major"><span>Get in touch</span></h2>
+									<ul class="contact">
+										<li><a class="icon fa-facebook" href="www.facebook.com"><span class="label">Facebook</span></a></li>
+										<li><a class="icon fa-twitter" href="www.twitter.com"><span class="label">Twitter</span></a></li>
+										<li><a class="icon fa-instagram" href="www.instagram.com"><span class="label">Instagram</span></a></li>
+										<li><a class="icon fa-dribbble" href="www.nba.com"><span class="label">Dribbble</span></a></li>
+									</ul>
+								</section> -->
+
+						</div>
+					</div>
+
+					<!-- Copyright -->
+						<div id="copyright">
+							<ul class="menu">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: HTML5 UP</a></li>
+							</ul>
+						</div>
+
+				</footer>
+
+		</div>
+<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+           <!-- <script src="retrieve_variables.js"></script> -->
+            <script src="validateCC.js"></script>
+            <script src="save_variables.js"></script>
+            
+	</body>
+</html>
