@@ -11,6 +11,30 @@ By functional I/WE mean:
 4. Online payment system using Stripe -  Stripe online payment system implemented to collect $1 from the user during registration.
 5. The libraries for both stripe and PHP Mailer are included in the base folder and can be directly refrenced in the register.php file.
 
+A few pics of the homepage:
+
+![alt tag](https://github.com/rooster06/HeatCheck--NBA-game-prediction-website/blob/master/home1.png)
+
+![alt tag](https://github.com/rooster06/HeatCheck--NBA-game-prediction-website/blob/master/home2.png)
+
+![alt tag](https://github.com/rooster06/HeatCheck--NBA-game-prediction-website/blob/master/home3.png)
+
+![alt tag](https://github.com/rooster06/HeatCheck--NBA-game-prediction-website/blob/master/home4.png)
+
+A few pics of the abous us page:
+
+![alt tag](https://github.com/rooster06/HeatCheck--NBA-game-prediction-website/blob/master/aboutus.png)
+
+![alt tag](https://github.com/rooster06/HeatCheck--NBA-game-prediction-website/blob/master/aboutus2.png)
+
+A few pics of the register page:
+![alt tag](https://github.com/rooster06/HeatCheck--NBA-game-prediction-website/blob/master/signup1.png)
+
+![alt tag](https://github.com/rooster06/HeatCheck--NBA-game-prediction-website/blob/master/signup2.png)
+
+A picture of the login page:
+![alt tag](https://github.com/rooster06/HeatCheck--NBA-game-prediction-website/blob/master/signin.png)
+
 
 1. The website template was obtained from html5up website - http://html5up.net
 2. The online payment module used in the website is Stripe- https://stripe.com
