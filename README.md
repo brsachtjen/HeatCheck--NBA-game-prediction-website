@@ -11,7 +11,7 @@ By functional I/WE mean:
 4. Online payment system using Stripe -  Stripe online payment system implemented to collect $1 from the user during registration.
 5. The libraries for both stripe and PHP Mailer are included in the base folder and can be directly refrenced in the register.php file.
 
-A few pics of the homepage:
+A few pics of the homepage: 
 
 ![alt tag](https://github.com/rooster06/HeatCheck--NBA-game-prediction-website/blob/master/home1.png)
 
@@ -27,13 +27,19 @@ A few pics of the abous us page:
 
 ![alt tag](https://github.com/rooster06/HeatCheck--NBA-game-prediction-website/blob/master/aboutus2.png)
 
-A few pics of the register page:
+A few pics of the registration page:
 ![alt tag](https://github.com/rooster06/HeatCheck--NBA-game-prediction-website/blob/master/signup1.png)
 
 ![alt tag](https://github.com/rooster06/HeatCheck--NBA-game-prediction-website/blob/master/signup2.png)
 
 A picture of the login page:
 ![alt tag](https://github.com/rooster06/HeatCheck--NBA-game-prediction-website/blob/master/signin.png)
+
+A few pics of the member page:
+
+![alt tag](https://github.com/rooster06/HeatCheck--NBA-game-prediction-website/blob/master/mempage1.png)
+
+![alt tag](https://github.com/rooster06/HeatCheck--NBA-game-prediction-website/blob/master/mempage2.png)
 
 
 1. The website template was obtained from html5up website - http://html5up.net
